@@ -2,7 +2,6 @@
 session_start();
 include_once("quiz.php");
 
-$answers = [];
 
 if(empty($_POST)){
 	$_SESSION["questionId"] = 0;
